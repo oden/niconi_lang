@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Niconi < Brainfuck
+  nxt 'にっこ♪'
+  inc 'にっこにー♪'
+  prv 'あなたのハートに'
+  dec 'にこにこにー♪'
+  opn '笑顔届ける'
+  cls '矢澤にこにこー♪'
+  put 'にこにーって覚えて'
+  get 'ラブにこー♪'
+end
+
+puts Niconi.new.fuck(ARGF.read)
+
